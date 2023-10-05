@@ -13,7 +13,7 @@
 
 $scripts_version = 1.0;
 //dev cache boosting
-$scripts_version = time();
+//$scripts_version = time();
 
 function like_dislike_enqueue_scripts()
 {
@@ -98,11 +98,3 @@ function like_add_the_button($content)
 }
 add_filter('the_content', 'like_add_the_button');
 
-
-//debug fucntion
-function dump_die($a)
-{
-    echo "<pre>";
-    var_dump($a);
-    die;
-}
