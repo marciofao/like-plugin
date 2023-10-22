@@ -10,4 +10,6 @@ Este plugin WordPress permite aos visitantes classificarem publicações, com li
 
 ### Frontend
 
--  Utiliza Tailwind.
+-  JQuery;
+-  Ajax;
+-  Local Storage;
